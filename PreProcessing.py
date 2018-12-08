@@ -3,8 +3,6 @@ from shutil import copyfile
 import scipy.io as sio
 
 path = './Mat_Files '
-patients = []
-number_of_images = []
 
 new_dir = './Filtered_Mat_Files'
 if not os.path.exists(new_dir):
